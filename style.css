@@ -19,7 +19,25 @@ body {
 }
 
 .body_image {
-  justify-content: center;
+  background-color: rgb(95, 95, 95);
+  position: relative;
+  height: 400px;
+}
+
+.body_image p {
+  color: #333333;
+  font-size: 40px;
+  font-family: fantasy;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.body_image h3 {
+  top: 20%;
 }
 
 .grid {
@@ -43,6 +61,10 @@ body {
   width: 300px;
   font-family: fantasy;
   font-size: 15px;
+}
+
+.origami:hover {
+  transform: scale(1.1);
 }
 
 a:link {
